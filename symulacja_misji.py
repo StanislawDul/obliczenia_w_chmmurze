@@ -49,7 +49,7 @@ H = [0]
 s = [0]
 sRozbieg = [0]
 
-f.write(f'\nSymulacja misji\n')
+f.write(f'\nSymulacja misji2test\n')
 print("Nr iteracji, czas, alfa, v, CL, CD, Lift, Trust, Drag, Droll, a, H, s, sRozbieg")
 print(f'{0}, {t[0]}, {alfa[0]}, {v[0]}, {CL[0]}, {CD[0]} {Lift[0]}, {Trust[0]}, {Drag[0]}, {Droll[0]}, {a[0]}, {H[0]}, {s[0]}, {sRozbieg[0]}')
 
