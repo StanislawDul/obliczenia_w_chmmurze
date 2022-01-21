@@ -14,7 +14,7 @@ Mi = 0.095 #współczynnik oporu dla kół ok 10 cm
 S = 0.35
 m_to = 3
 
-print(f'test dt = {dt}\ng = {g}\nro = {ro}\nMi = {Mi}')
+print(f'dt = {dt}\ng = {g}\nro = {ro}\nMi = {Mi}')
 print(f'\nS = {S}\nm_to = {m_to}\n')
 f.write(f'dt = {dt}\ng = {g}\nro = {ro}\nMi = {Mi}\n')
 f.write(f'\nS = {S}\nm_to = {m_to}\n')
