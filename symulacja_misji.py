@@ -14,7 +14,7 @@ Mi = 0.095 #współczynnik oporu dla kół ok 10 cm
 S = 0.35
 m_to = 3
 
-print(f'dt = {dt}\ng = {g}\nro = {ro}\nMi = {Mi}')
+print(f'test dt = {dt}\ng = {g}\nro = {ro}\nMi = {Mi}')
 print(f'\nS = {S}\nm_to = {m_to}\n')
 f.write(f'dt = {dt}\ng = {g}\nro = {ro}\nMi = {Mi}\n')
 f.write(f'\nS = {S}\nm_to = {m_to}\n')
@@ -49,7 +49,7 @@ H = [0]
 s = [0]
 sRozbieg = [0]
 
-f.write(f'\nSymulacja misji2test\n')
+f.write(f'\nSymulacja misji\n')
 print("Nr iteracji, czas, alfa, v, CL, CD, Lift, Trust, Drag, Droll, a, H, s, sRozbieg")
 print(f'{0}, {t[0]}, {alfa[0]}, {v[0]}, {CL[0]}, {CD[0]} {Lift[0]}, {Trust[0]}, {Drag[0]}, {Droll[0]}, {a[0]}, {H[0]}, {s[0]}, {sRozbieg[0]}')
 
